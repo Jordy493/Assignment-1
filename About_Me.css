@@ -1,0 +1,59 @@
+/* Student's Name: Jordan Coque
+Student ID: 301273107
+Date: 2024-05-31 */
+body{
+    margin: 0%;
+    background-color: #011e3d;
+}
+.Navigation_Bar ul{
+    list-style-type: none;
+    background-color: #ebebeb;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+.Navigation_Bar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+.Navigation_Bar a:hover{
+    background-color: #717171;
+}
+.Navigation_Bar li{
+    float: left;
+}
+.Titles{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.Normal_Text{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.Personal_Photo{
+    text-align: center;
+}
+.Personal_Photo img{
+    width: 400px;
+    height: 400px;
+}
+#My_Resume{
+    display: block;
+    margin: auto;
+    padding: 20px 3px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#My_Resume:hover{
+    background-color: #717171;
+}

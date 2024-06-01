@@ -1,0 +1,61 @@
+<!-- Student's Name: Jordan Coque
+Student ID: 301273107
+Date: 2024-05-31 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>@import url(Contact_Information.css);</style>
+    <script src="Contact_Information.js" defer ></script>
+    <title>Contact Information</title>
+</head>
+<body>
+    <nav class="Navigation_Bar">
+        <ul>
+            <li><a href="Home_Page.html">Home Page</a></li>
+            <li><a href="About_Me.html">About Me</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Services.html">Services</a></li>
+        </ul>
+    </nav>
+
+    <div class="Titles">
+        <p><b>Personal Information</b></p>
+    </div>
+    <div class="Sub_Titles">
+        <p>Phone Number</p>
+    </div>
+    <div class="Normal_Text">
+        <p>(437)2569734</p>
+    </div>
+    <br>
+    <div class="Sub_Titles">
+        <p>Email</p>
+    </div>
+    <div class="Normal_Text">
+        <p>jordancoque1213@gmail.com</p>
+    </div>
+    <br>
+    <div class="Titles">
+        <p>Contact Form</p>
+    </div>
+
+    <form id="contact_Form">
+        <label for="firstName"><b>First Name</b></label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName"><b>Last Name</b></label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="contactNumber"><b>Contact Number</b></label>
+        <input type="tel" id="contactNumber" name="contactNumber" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message"><b>Message</b></label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</body>
+</html>
